@@ -3,6 +3,8 @@
 # Shamelessly stolen from https://github.com/beardix/asdf-yq/blob/master/bin/list-all#L7
 # Thank you for your great and simple work
 
+set -x
+
 set -o errexit
 set -o nounset
 set -o pipefail
